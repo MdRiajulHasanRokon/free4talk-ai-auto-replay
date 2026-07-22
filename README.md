@@ -19,24 +19,185 @@ Built on Manifest V3, the extension integrates multi-provider Large Language Mod
 
 ## Complete Installation Guide
 
-### 1. Mobile Phone Installation (Android)
+### 1. Mobile Phone Installation
 
-#### Method A: Lemur Browser
-1. Download and install **Lemur Browser** from the [Google Play Store](https://play.google.com/store/apps/details?id=com.lemur.open.browser).
-2. Download `free4talk-ai-v3.1.0.zip` from [GitHub Releases](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
-3. Open Lemur Browser, tap the Extension icon, and navigate to `chrome://extensions`.
-4. Enable **Developer Mode**.
-5. Select **Load unpacked** or **+ (from .zip/.crx/.user.js)** and choose the downloaded file.
-6. Navigate to [free4talk.com](https://www.free4talk.com), configure your API key, and enable automated chat.
+#### Download Lemur Browser
+
+Lemur Browser can be downloaded from the appropriate app store:
+
+* **Android — Google Play Store:**
+  [Download Lemur Browser for Android](https://play.google.com/store/apps/details?id=com.lemurbrowser.exts&pcampaignid=web_share)
+
+* **iPhone/iPad — Apple App Store:**
+  [Find Lemur Browser on the Apple App Store](https://apps.apple.com/us/app/狐猴浏览器/id1662756821)
+
+> **Important:** The Chrome extension ZIP installation method is supported only on compatible Android browsers. iPhone and iPad browsers generally cannot manually install Chrome extensions from `.zip` or `.crx` files.
+
+---
+
+## Method A: Android Installation Using Lemur Browser
+
+### Step 1: Install Lemur Browser
+
+1. Open the [Google Play Store](https://play.google.com/store/apps/details?id=com.lemur.open.browser).
+2. Tap **Install**.
+3. Wait for the installation to complete.
+4. Open **Lemur Browser**.
+
+### Step 2: Download the Extension
+
+1. Open Lemur Browser.
+
+2. Visit the following GitHub release page:
+
+   [Free4Talk AI v3.1.0 GitHub Release](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0)
+
+3. Download the following file:
+
+```text
+free4talk-ai-v3.1.0.zip
+```
+
+4. Wait until the file has completely downloaded.
+
+The ZIP file will normally be saved in your phone’s **Downloads** folder.
+
+### Step 3: Open the Lemur Extensions Menu
+
+You do not need to enter `chrome://extensions`.
+
+Instead:
+
+1. Open Lemur Browser.
+2. Tap the browser’s **Extensions** icon or open the browser menu.
+3. Select **Extensions**.
+4. Tap the **+** button.
+
+Depending on the Lemur Browser version, the installation option may appear as:
+
+* **Install extension**
+* **Load extension**
+* **Import extension**
+* **From local file**
+* **From .zip/.crx/.user.js**
+
+### Step 4: Select the Extension ZIP File
+
+1. Tap **+** or the available local installation option.
+2. Select the option for installing from a ZIP or local file.
+3. Open your phone’s **Downloads** folder.
+4. Select:
+
+```text
+free4talk-ai-v3.1.0.zip
+```
+
+5. Approve the requested permissions.
+6. Wait for the installation to complete.
+
+### Step 5: Enable the Extension
+
+1. Open Lemur Browser’s **Extensions** menu again.
+2. Find the installed **Free4Talk AI** extension.
+3. Make sure the extension is enabled.
+4. Allow the extension to access:
+
+```text
+https://www.free4talk.com
+```
+
+### Step 6: Open Free4Talk
+
+1. Visit [free4talk.com](https://www.free4talk.com) using Lemur Browser.
+2. Sign in to your Free4Talk account.
+3. Join or open a chat room.
+4. Tap the Lemur Browser **Extensions** icon.
+5. Select the installed Free4Talk AI extension.
+
+### Step 7: Configure the Extension
+
+1. Open the extension panel.
+
+2. Enter your supported AI provider API key.
+
+3. Save the API key.
+
+4. Configure the available options, such as:
+
+   * AI model
+   * Reply language
+   * Response delay
+   * Reply instructions
+   * Automated chat mode
+
+5. Enable automated chat.
+
+6. Refresh the Free4Talk page after saving the configuration.
+
+> Keep your API key private. Do not share it publicly or include it in screenshots.
+
+---
+
+## iPhone and iPad Installation
+
+You may download Lemur Browser from the Apple App Store when it is available:
+
+[Find Lemur Browser on the Apple App Store](https://apps.apple.com/us/app/狐猴浏览器/id1662756821)
+
+However, iPhone and iPad do not support manually loading this Chrome extension from a `.zip` or `.crx` file using the same Android method.
+
+The following Android options are generally unavailable on iOS:
+
+* Installing extensions from ZIP files
+* Installing `.crx` files
+* Using **Load unpacked**
+* Importing Chrome extensions from local storage
+
+To support iPhone and iPad properly, the extension would need to be converted into a compatible **Safari Web Extension** and distributed through an iOS application or the Apple App Store.
+
+Therefore:
+
+* **Android:** ZIP extension installation is supported through a compatible browser such as Lemur Browser.
+* **iPhone/iPad:** The current ZIP extension cannot be manually installed.
 
 
-### 2. Desktop Installation (Chrome, Brave, Edge, Opera)
 
-1. Download and extract `free4talk-ai-v3.1.0.zip` from [GitHub Releases](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
-2. Open the extensions manager (`chrome://extensions` or browser equivalent).
-3. Enable **Developer mode**.
-4. Click **Load unpacked** and select the extracted project directory.
-5. Access [free4talk.com](https://www.free4talk.com) to activate the extension.
+### 2. Desktop Installation
+
+Download and extract `free4talk-ai-v3.1.0.zip` from the [GitHub Releases page](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
+
+#### Chrome, Microsoft Edge, Brave, Opera, Vivaldi, and Other Chromium-Based Browsers
+
+1. Open your browser’s extension-management page:
+
+   * Google Chrome: `chrome://extensions`
+   * Microsoft Edge: `edge://extensions`
+   * Brave: `brave://extensions`
+   * Opera: `opera://extensions`
+   * Vivaldi: `vivaldi://extensions`
+
+2. Enable **Developer mode**.
+
+3. Click **Load unpacked**.
+
+4. Select the extracted extension project folder containing the `manifest.json` file.
+
+5. Open [free4talk.com](https://www.free4talk.com) to activate and use the extension.
+
+#### Mozilla Firefox
+
+1. Open `about:debugging#/runtime/this-firefox`.
+2. Click **Load Temporary Add-on**.
+3. Open the extracted project folder.
+4. Select the `manifest.json` file.
+5. Open [free4talk.com](https://www.free4talk.com) to activate and use the extension.
+
+> **Note:** Firefox temporary extensions are removed when the browser is restarted. Permanent Firefox installation requires a signed Firefox-compatible extension package.
+
+#### Safari
+
+Safari requires a separately converted and signed Safari Web Extension. The downloaded ZIP package cannot be installed directly through Safari unless a Safari-compatible version is provided.
+
 
 #### Method B: Kiwi Browser
 1. Install **Kiwi Browser** from the Google Play Store.
