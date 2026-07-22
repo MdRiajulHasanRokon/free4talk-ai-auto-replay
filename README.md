@@ -320,5 +320,84 @@ Free4Talk AI adheres to zero-trust client-side design principles.
 
 <img width="488" height="765" alt="image" src="https://github.com/user-attachments/assets/d38cf195-ab77-44e3-a918-f31dedb5e197" />
 
+## Table of Contents
+
+- [Features](#features)
+- [Supported Browsers](#supported-browsers)
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+- [Privacy and Security](#privacy-and-security)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Frequently Asked Questions
+
+### What is Free4Talk AI Auto Reply?
+
+Free4Talk AI Auto Reply is a browser extension that uses artificial intelligence to generate chat replies on Free4Talk.
+
+### Does the extension work with Google Chrome?
+
+Yes. The extension supports Google Chrome and other Chromium-based browsers such as Microsoft Edge, Brave, and Opera.
+
+### Does it work on Android?
+
+The extension can be installed on Android browsers that support Chrome extensions, such as Lemur Browser. Browser behavior may vary by version.
+
+### Does it work on iPhone or iPad?
+
+No. Chrome extensions cannot normally be installed in Chrome on iPhone or iPad. A separate Safari extension would be required.
+
+### Is an API key required?
+
+An API key may be required depending on the AI provider configured in the extension.
+
+### Is the extension officially associated with Free4Talk?
+
+No. This is an independent project and is not officially affiliated with Free4Talk.
+
+
+
+## Privacy and Security
+
+- API keys are stored according to the extension's documented storage method.
+- Users should never share their API keys publicly.
+- The extension only requests permissions required for its documented features.
+- Review the source code and privacy policy before installation.
+- Conversation data may be sent to the selected AI provider when generating responses.
+
+
+## Disclaimer
+
+Free4Talk AI Auto Reply is an independent open-source project. It is not affiliated with, endorsed by, or officially connected to Free4Talk.
+
+Users are responsible for complying with Free4Talk's terms of service and the terms of the selected AI provider. Automated messaging should be used responsibly and should not be used for spam, harassment, impersonation, or abuse.
+
+
+README.md
+LICENSE
+CONTRIBUTING.md
+SECURITY.md
+PRIVACY.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+
+free4talk-ai-auto-replay/
+├── src/
+├── assets/
+├── docs/
+│   └── images/
+├── manifest.json
+├── README.md
+├── PRIVACY.md
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── LICENSE
+└── package.json
+
 
 
