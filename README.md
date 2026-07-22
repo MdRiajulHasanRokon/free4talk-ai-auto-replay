@@ -377,6 +377,7 @@ Free4Talk AI Auto Reply is an independent open-source project. It is not affilia
 Users are responsible for complying with Free4Talk's terms of service and the terms of the selected AI provider. Automated messaging should be used responsibly and should not be used for spam, harassment, impersonation, or abuse.
 
 
+
 README.md
 LICENSE
 CONTRIBUTING.md
@@ -401,3 +402,18 @@ free4talk-ai-auto-replay/
 
 
 
+Developed by [MdRiajulHasanRokon](https://github.com/MdRiajulHasanRokon) for the [Free4Talk](https://www.free4talk.com) community.
+
+---
+
+## Support the Project
+
+If Free4Talk AI is useful to you, consider giving the repository a ⭐ star. Your support helps other Free4Talk users discover the project.
+
+You can also support the project by:
+
+- Reporting bugs through [GitHub Issues](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/issues)
+- Suggesting useful features
+- Improving the documentation
+- Sharing the repository with other Free4Talk users
+- Contributing code through pull requests
