@@ -29,6 +29,15 @@ Built on Manifest V3, the extension integrates multi-provider Large Language Mod
 5. Select **Load unpacked** or **+ (from .zip/.crx/.user.js)** and choose the downloaded file.
 6. Navigate to [free4talk.com](https://www.free4talk.com), configure your API key, and enable automated chat.
 
+
+### 2. Desktop Installation (Chrome, Brave, Edge, Opera)
+
+1. Download and extract `free4talk-ai-v3.1.0.zip` from [GitHub Releases](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
+2. Open the extensions manager (`chrome://extensions` or browser equivalent).
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select the extracted project directory.
+5. Access [free4talk.com](https://www.free4talk.com) to activate the extension.
+
 #### Method B: Kiwi Browser
 1. Install **Kiwi Browser** from the Google Play Store.
 2. Download `free4talk-ai-v3.1.0.zip` from [GitHub Releases](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
@@ -38,14 +47,6 @@ Built on Manifest V3, the extension integrates multi-provider Large Language Mod
 6. Open [free4talk.com](https://www.free4talk.com) and launch Free4Talk AI from the extension menu.
 
 ---
-
-### 2. Desktop Installation (Chrome, Brave, Edge, Opera)
-
-1. Download and extract `free4talk-ai-v3.1.0.zip` from [GitHub Releases](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/tag/v3.1.0).
-2. Open the extensions manager (`chrome://extensions` or browser equivalent).
-3. Enable **Developer mode**.
-4. Click **Load unpacked** and select the extracted project directory.
-5. Access [free4talk.com](https://www.free4talk.com) to activate the extension.
 
 ---
 
