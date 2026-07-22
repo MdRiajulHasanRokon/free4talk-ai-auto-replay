@@ -1,0 +1,29 @@
+{
+  "name": "free4talk-ai-auto-replay",
+  "version": "3.1.0",
+  "description": "Free4Talk Bot & Free4Talk Auto Replay Chat Assistant - Open Source Chrome Extension",
+  "main": "background.js",
+  "scripts": {
+    "build": "esbuild src/popup/index.jsx --bundle --outfile=popup.js --loader:.jsx=jsx && esbuild src/memory/index.jsx --bundle --outfile=memory.js --loader:.jsx=jsx"
+  },
+  "keywords": [
+    "free4talk",
+    "free4talk-bot",
+    "free4talk-chat",
+    "free4talk-auto-replay",
+    "free4talk-auto-replay-chat",
+    "chrome-extension",
+    "ai-assistant",
+    "nvidia-nim",
+    "openai",
+    "gemini"
+  ],
+  "author": "MdRiajulHasanRokon",
+  "homepage": "https://www.free4talk.com",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.28.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
