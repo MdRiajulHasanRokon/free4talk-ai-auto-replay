@@ -1,10 +1,10 @@
-# Free4Talk AI - Automated Chat & Auto-Replay Chrome Extension (v3.1.0)
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-100%25-brightgreen.svg)](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay)
-[![Security](https://img.shields.io/badge/Security-Client--Side%20Direct%20API-blue.svg)](#security-and-privacy-architecture)
-[![Chrome Extension](https://img.shields.io/badge/Extension-Manifest%20V3-orange.svg)](manifest.json)
-[![Platform](https://img.shields.io/badge/Platform-free4talk.com-purple.svg)](https://www.free4talk.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# Free4Talk AI Auto Reply – AI Browser Extension for Free4Talk for phone and desktop
+Free4Talk AI Auto Reply is an AI-powered browser extension that automatically generates and sends intelligent chat replies on Free4Talk. It supports Chrome, Microsoft Edge, Brave, Opera, and compatible Android browsers.
+[![GitHub release](https://img.shields.io/github/v/release/MdRiajulHasanRokon/free4talk-ai-auto-replay)](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/MdRiajulHasanRokon/free4talk-ai-auto-replay/total)](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/releases)
+[![GitHub stars](https://img.shields.io/github/stars/MdRiajulHasanRokon/free4talk-ai-auto-replay)](https://github.com/MdRiajulHasanRokon/free4talk-ai-auto-replay/stargazers)
+[![GitHub license](https://img.shields.io/github/license/MdRiajulHasanRokon/free4talk-ai-auto-replay)](LICENSE)
+[![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-blue)](#)
 
 Free4Talk AI is an open-source browser extension designed for automated message processing, real-time chat replies, and context-aware interaction on [free4talk.com](https://www.free4talk.com).
 
@@ -303,5 +303,22 @@ Free4Talk AI adheres to zero-trust client-side design principles.
    - **Semantic Search Vector Store**: Client-side IndexedDB vector embeddings storage for searching and retrieving past text conversation memories across multiple room sessions.
 
 ---
+
+
+## Supported Browsers
+
+| Browser | Platform | Support |
+|---|---|---|
+| Google Chrome | Windows, macOS, Linux | Supported |
+| Microsoft Edge | Windows, macOS | Supported |
+| Brave | Windows, macOS, Linux | Supported |
+| Opera | Windows, macOS, Linux | Supported |
+| Lemur Browser | Android | Supported |
+| Kiwi Browser | Android | Test before installation |
+| Safari | iPhone, iPad, macOS | Not currently supported |
+| Firefox | Desktop and Android | Not currently supported |
+
+<img width="488" height="765" alt="image" src="https://github.com/user-attachments/assets/d38cf195-ab77-44e3-a918-f31dedb5e197" />
+
 
 
