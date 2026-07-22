@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Production / Zip artifacts
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Gemini / Scratch temp files
+scratch/
+.gemini/
